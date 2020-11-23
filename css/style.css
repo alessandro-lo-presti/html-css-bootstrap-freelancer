@@ -31,6 +31,11 @@ section h2{
   text-transform: uppercase;
 }
 
+.stars {
+  margin: 20px 0;
+  font-size: 35px;
+}
+
 /* start-section */
 .start-section {
   text-transform: uppercase;
@@ -67,6 +72,11 @@ section h2{
 
 .contact-section .row div:last-child {
   padding-bottom: 150px;
+}
+
+.contact-section .row .stars{
+  text-align: center;
+  border-bottom: none;
 }
 
 /* footer */
