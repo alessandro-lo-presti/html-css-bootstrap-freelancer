@@ -17,6 +17,7 @@ main section:nth-child(odd) {
   color: white;
 }
 
+/* start-section */
 .start-section {
   text-transform: uppercase;
 }
@@ -28,4 +29,23 @@ main section:nth-child(odd) {
 .start-section p {
   font-size: 25px;
   font-weight: bold;
+}
+
+/* portfolio-section */
+.portfolio-section h2{
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.portfolio-section .row div {
+  margin-top: 35px;
+}
+
+.portfolio-section .row div:first-child {
+  margin: 0;
+}
+
+.portfolio-section img {
+  width: 100%;
 }
