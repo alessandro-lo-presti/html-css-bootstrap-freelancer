@@ -53,3 +53,14 @@ section h2{
 .portfolio-section img {
   width: 100%;
 }
+
+/* contact-section */
+.contact-section .row div {
+  text-align: left;
+  padding: 20px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.contact-section .row div:last-child {
+  padding-bottom: 150px;
+}
