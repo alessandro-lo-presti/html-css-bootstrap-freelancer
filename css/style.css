@@ -80,8 +80,25 @@ footer {
   background-color: #3a546d;
 }
 
-.footer-top .row div {
+.footer-top .row > div {
   padding: 50px 0;
+}
+
+.footer-top h3 {
+  text-transform: uppercase;
+}
+
+.footer-top a {
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 25px;
+  color: white;
+  /* border: 1px solid white;
+  border-radius: 50%; */
+}
+
+.footer-top .row span {
+  color: #1abc9c;
 }
 
 /* footer-bottom */
