@@ -37,44 +37,51 @@ section h2{
 }
 
 /* start-section */
-.start-section {
+.start_section {
   text-transform: uppercase;
 }
 
-.start-section h1 {
+.start_section h1 {
   font-size: 60px;
 }
 
-.start-section p {
+.start_section p {
   font-size: 25px;
   font-weight: bold;
 }
 
 /* portfolio-section */
-.portfolio-section .row div {
+.portfolio_section .row div {
   margin-top: 35px;
 }
 
-.portfolio-section .row div:first-child {
+.portfolio_section .row div:first-child {
   margin: 0;
 }
 
-.portfolio-section img {
+/* .portfolio_section .row > div:nth-child(2) {
+  height: 260px;
+  background-image: url("../img/cabin.png");
+  background-size: 100% 100%;
+  border-radius: 5px;
+} */
+
+.portfolio_section img {
   width: 100%;
 }
 
 /* contact-section */
-.contact-section .row div {
+.contact_section .row div {
   text-align: left;
   padding: 20px 0;
   border-bottom: 1px solid lightgrey;
 }
 
-.contact-section .row div:last-child {
+.contact_section .row div:last-child {
   padding-bottom: 150px;
 }
 
-.contact-section .row .stars{
+.contact_section .row .stars{
   text-align: center;
   border-bottom: none;
 }
@@ -86,19 +93,16 @@ footer {
 }
 
 /* footer-top */
-.footer-top {
+.footer_top {
   background-color: #3a546d;
-}
-
-.footer-top .row > div {
   padding: 50px 0;
 }
 
-.footer-top h3 {
+.footer_top h3 {
   text-transform: uppercase;
 }
 
-.footer-top a {
+.footer_top a {
   padding: 10px;
   margin-right: 20px;
   font-size: 25px;
@@ -107,12 +111,12 @@ footer {
   border-radius: 50%; */
 }
 
-.footer-top .row span {
+.footer_top .row span {
   color: #1abc9c;
 }
 
 /* footer-bottom */
-.footer-bottom {
+.footer_bottom {
   background-color: #2c3e50;
   line-height: 100px;
   font-size: 13px;
