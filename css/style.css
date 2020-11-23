@@ -10,11 +10,17 @@ main {
 
 section {
   padding: 60px 0;
+  font-size: 20px;
 }
 
-main section:nth-child(odd) {
+section:nth-child(odd) {
   background-color: #1abc9c;
   color: white;
+}
+
+section h2{
+  font-size: 50px;
+  text-transform: uppercase;
 }
 
 /* start-section */
@@ -33,8 +39,6 @@ main section:nth-child(odd) {
 
 /* portfolio-section */
 .portfolio-section h2{
-  font-size: 50px;
-  text-transform: uppercase;
   color: #333333;
 }
 
