@@ -51,7 +51,7 @@ section:nth-child(odd) {
   color: white;
 }
 
-.section:nth-child(even) {
+section:nth-child(even) {
   color: #333333;
 }
 
@@ -63,6 +63,24 @@ section h2{
 .stars {
   margin: 20px 0;
   font-size: 35px;
+}
+
+.stars:before,
+.stars:after {
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius:2px;
+  background-color: white;
+  margin: 0 20px;
+  position: relative;
+  bottom: 11px;
+}
+
+section:nth-child(even) .stars:before,
+section:nth-child(even) .stars:after {
+  background-color: #333333;
 }
 
 /* start-section */
