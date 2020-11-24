@@ -111,7 +111,7 @@ section:nth-child(even) .stars:after {
 
 /* portfolio-section */
 .portfolio_section .row div:not(.stars) {
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 .portfolio_section .row div:first-child {
@@ -120,6 +120,50 @@ section:nth-child(even) .stars:after {
 
 .portfolio_section img {
   width: 100%;
+}
+
+.img_container {
+  height: 260px;
+  width: 100%;
+  border-radius: 10px;
+  background-size: 100% 100%;
+}
+
+.img_container_1{
+  background-image: url("../img/cabin.png");
+}
+
+.img_container_2{
+  background-image: url("../img/cake.png");
+}
+
+.img_container_3{
+  background-image: url("../img/circus.png");
+}
+
+.img_container_4{
+  background-image: url("../img/game.png");
+}
+
+.img_container_5{
+  background-image: url("../img/safe.png");
+}
+
+.img_container_6{
+  background-image: url("../img/submarine.png");
+}
+
+.layer {
+  height: 260px;
+  border-radius: 10px;
+  line-height: 290px;
+  font-size: 0;
+}
+
+.layer:hover {
+  background-color: rgb(26, 188, 156, 0.5);
+  color: white;
+  font-size: 100px;
 }
 
 /* about-section */
