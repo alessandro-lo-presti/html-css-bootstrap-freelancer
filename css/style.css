@@ -190,3 +190,12 @@ footer {
   line-height: 100px;
   font-size: 13px;
 }
+
+/* media-query */
+@media screen {
+
+  .contact_section {
+    margin: 0 10px;
+  }
+
+}
