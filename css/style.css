@@ -129,55 +129,21 @@ section:nth-child(even) .stars:after {
   bottom: 0px;
   z-index: 1;
   border-radius: 5px;
+  font-size: 0;
 }
 
 .layer:hover{
   background-color: rgb(26, 188, 156, 0.5);
-}
-
-/* .img_container {
-  height: 260px;
-  width: 100%;
-  border-radius: 10px;
-  background-size: 100% 100%;
-}
-
-.img_container_1{
-  background-image: url("../img/cabin.png");
-}
-
-.img_container_2{
-  background-image: url("../img/cake.png");
-}
-
-.img_container_3{
-  background-image: url("../img/circus.png");
-}
-
-.img_container_4{
-  background-image: url("../img/game.png");
-}
-
-.img_container_5{
-  background-image: url("../img/safe.png");
-}
-
-.img_container_6{
-  background-image: url("../img/submarine.png");
-}
-
-.layer {
-  height: 260px;
-  border-radius: 10px;
-  line-height: 290px;
-  font-size: 0;
-}
-
-.layer:hover {
-  background-color: rgb(26, 188, 156, 0.5);
   color: white;
   font-size: 100px;
-} */
+}
+
+.layer div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
 
 /* about-section */
 .about_section .row div:not(.stars){
