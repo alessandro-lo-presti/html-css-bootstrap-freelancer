@@ -204,7 +204,7 @@ footer {
 }
 
 .footer_top a:hover {
-  color: #1abc9c;  
+  color: #1abc9c;
 }
 
 .footer_top .row span {
@@ -220,6 +220,18 @@ footer {
 
 /* media-query */
 @media screen and (max-width: 768px){
+
+  .navbar.ms_navbar .navbar-brand{
+    font-size: 25px;
+  }
+
+  .start_section h1{
+    font-size: 45px;
+  }
+
+  .start_section p {
+    font-size: 20px;
+  }
 
   .contact_section {
     margin: 0 10px;
