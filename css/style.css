@@ -203,6 +203,10 @@ footer {
   border-radius: 50%; */
 }
 
+.footer_top a:hover {
+  color: #1abc9c;  
+}
+
 .footer_top .row span {
   color: #1abc9c;
 }
