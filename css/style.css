@@ -109,7 +109,7 @@ section:nth-child(even) .stars:after {
 }
 
 /* portfolio-section */
-.portfolio_section .row div:not(.stars) {
+.portfolio_section .row div:not(.stars, .layer) {
   margin-top: 30px;
 }
 
@@ -121,7 +121,21 @@ section:nth-child(even) .stars:after {
   width: 100%;
 }
 
-.img_container {
+.layer {
+  width: calc(100% - 30px);
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.layer:hover{
+  background-color: rgb(26, 188, 156, 0.5);
+}
+
+/* .img_container {
   height: 260px;
   width: 100%;
   border-radius: 10px;
@@ -163,7 +177,7 @@ section:nth-child(even) .stars:after {
   background-color: rgb(26, 188, 156, 0.5);
   color: white;
   font-size: 100px;
-}
+} */
 
 /* about-section */
 .about_section .row div:not(.stars){
